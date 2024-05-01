@@ -1,9 +1,9 @@
 function load() {
-    let btn = document.getElementById("play")
+    let btn = document.getElementById("play");
 
-    btn.onclick = () => {
-        window.open("/game")
-    }
-}
+    btn.addEventListener("click", () => {
+        window.open("/game/");
+    });
+};
 
-document.addEventListener("load", load)
+document.addEventListener("load", load);
