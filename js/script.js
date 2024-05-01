@@ -6,4 +6,4 @@ function load() {
     }
 }
 
-document.onload = load
+document.addEventListener("load", load)
